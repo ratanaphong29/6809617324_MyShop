@@ -129,5 +129,15 @@ body{
     font-weight: bold;
 }
 
+.my1category{
+     padding-left: 70px;
+}
 
+.comeback{
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+}
 
