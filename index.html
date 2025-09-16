@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>My shop</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header class="main-header">
+            <div class="logo">
+                <h1>เล่มต่อไป</h1>
+            </div>
+
+            <form class="search-from" action="/search" method="get">
+                <input type="text" name="query" placeholder="ค้นหา..." class="search-bar">
+            </form>
+
+            <nav class="top-menu">
+                <ul>
+                    <li><strong>หน้าหลัก</strong></li>
+                    <li><strong>สินค้า</strong></li>
+                    <li><strong>เกี่ยวกับ</strong></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="video-section">
+            <video class="hero-video" width="627" height="360" controls>
+                <source  src="resources/website-myshop.mp4" >
+                <p>เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ</p>
+            </video>
+
+            <div class="content">
+                <p>
+                    ยินดีต้อนรับสู่<br>ร้านของเรา
+                </p>
+            </div> 
+        </div>
+
+        <div class="about">
+            <h1>เกี่ยวกับเรา</h1>
+            <p>ร้านนี้มีชื่อว่า "เล่มต่อไป"
+            ร้านนี้เริ่มจากความคิดง่ายๆของผมเองว่า “หนังสือทุกเล่มที่อยู่ที่นี่ คือหนังสือพัฒนาตนเองที่ผมอยากอ่าน”
+            มันคือหนังสือที่ผมยังไม่เคยอ่าน ยังไม่เคยแตะและยังไม่เคยซื้อมาก่อนเลย555
+
+            ผมไม่ได้อยากเปิดร้านเพื่อขายหนังสือที่ใครๆบอกว่าดีแต่ผมอยากให้ร้านนี้เป็นที่ที่ผมกับคนอื่นๆ 
+            ได้ลองหยิบหนังสือที่เรา “ยังไม่รู้จัก” มาค้นหาด้วยกันทุกเล่มจึงไม่ใช่แค่ของที่วางขายแต่มันคือความอยากรู้อยากเห็น 
+            ที่ผมอยากแบ่งปันกับคนที่แวะเข้ามา
+
+            คุณอาจจะเจอเล่มที่ใช่หรือเล่มที่ไม่เคยคิดจะเปิดแต่ถ้าได้ลองอาจได้อะไรกลับไปมากกว่าที่คาดไว้เหมือนกัน
+            </p>
+        </div>
+
+        <section class="product">
+            <h1 class="recommend">สินค้าแนะนำ</h1>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="resources/good-vibes-good-life.jpg" alt="ใช้คลื่นพลังบวกดึงดูดพลังสุข">
+                    <h3>ใช้คลื่นพลังบวกดึงดูดพลังสุข</h3>
+                    <p class="author">เว็กซ์ คิงส์</p>
+                    <p class="price">245 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/533411" target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/communication.jpg" alt="อย่าเป็นคนเก่งที่คุยไม่เป็น">
+                    <h3>อย่าเป็นคนเก่งที่คุยไม่เป็น</h3>
+                    <p class="author">ยาซุดะ ทาดาชิ (Tadashi Yasuda)</p>
+                    <p class="price">220 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/505330" target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/youth.jpg" alt="เพราะเป็นวัยรุ่นจึงเจ็บปวด">
+                    <h3>เพราะเป็นวัยรุ่นจึงเจ็บปวด</h3>
+                    <p class="author"> คิมรันโด</p>
+                    <p class="price">245 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/559765"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/promise.jpg" alt="สัญญาว่าจะยิ้มให้กับตัวเอง">
+                    <h3>สัญญาว่าจะยิ้มให้กับตัวเอง</h3>
+                    <p class="author">Whenimfeeeling</p>
+                    <p class="price">245 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/565066"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/psychology.jpg" alt="จิตวิทยาและพฤติกรรมมนุษย์">
+                    <h3>จิตวิทยาและพฤติกรรมมนุษย์</h3>
+                    <p class="author">อลัน ฟิชเชอร์</p>
+                    <p class="price">250 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/640318"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/supercommunicatior.jpg" alt="ยอดมนุษย์นักสื่อสาร">
+                    <h3>ยอดมนุษย์นักสื่อสาร</h3>
+                    <p class="author"> Charles Duhigg (ชาร์ลส์ ดูฮิก)</p>
+                    <p class="price">325 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/643986"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/art-of-speaking.jpg" alt="ศิลปะการพูดให้เหมือนนั่งในใจคน">
+                    <h3>ศิลปะการพูดให้เหมือนนั่งในใจคน</h3>
+                    <p class="author">คิมยุนนา (Yun-na-Kim)</p>
+                    <p class="price">245 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/497526"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="resources/power.jpg" alt="พลังของคนที่กล้าทำอะไรคนเดียว">
+                    <h3>พลังของคนที่กล้าทำอะไรคนเดียว</h3>
+                    <p class="author">โกะโด โทคิโอะ (Tokio Godo)</p>
+                    <p class="price">225 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/506377"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+                 <div class="product-card">
+                    <img src="resources/introvert.jpg" alt="วิธีเป็นอินโทรเวิร์ตที่พูดน้อยแต่สำเร็จมาก">
+                    <h3>วิธีเป็นอินโทรเวิร์ต<br>ที่พูดน้อยแต่สำเร็จมาก</h3>
+                    <p class="author">โจจุนโฮ และ คิมคยองอิล</p>
+                    <p class="price">295 บาท</p>
+                    <a href="https://www.naiin.com/product/detail/632868"target="_blank" class="detail-link">คลิกดูรายละเอียดเพิ่มเติม</a>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="contact">
+                <a href="https://www.facebook.com/nawaporn.chartpuek?_rdc=1&_rdr#" target="_blank" aria-label="facebook">
+                        <img src="resources/facebook.jpg" alt="facebook" width="70" height="70">
+                </a>
+                
+                <a href="https://www.instagram.com/_netrp/" target="_blank" aria-label="instagram">
+                        <img src="resources/instagram.jpg" alt="instagram" width="100" height="100">
+                </a>
+            </div>
+        </footer>
+
+    </body>
+</html>
