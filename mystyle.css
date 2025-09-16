@@ -138,6 +138,9 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    color:black;
+}
+
+.comeback a{
+    color: black;
 }
 
